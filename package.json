@@ -1,0 +1,35 @@
+{
+  "name": "node-learn",
+  "version": "0.0.1",
+  "description": "Machine learning for node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schafer14/node-learn"
+  },
+  "homepage":"http://schafer14.github.io/node-learn/",
+  "keywords": [
+    "machine",
+    "learning",
+    "learn",
+    "kmean"
+  ],
+  "author": "Banner B. Schafer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schafer14/node-learn/issues"
+  },
+  "devDependencies": {
+    "should": "latest",
+    "mocha": "latest"
+  },
+  "dependencies": {
+    "lodash": "latest"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "index",
+  "directories": {
+    "test": "test"
+  }
+}
